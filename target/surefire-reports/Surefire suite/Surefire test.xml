@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="JmContrStoltze" name="com.mycompany.app.NewTest" tests="1" failures="0" timestamp="10 Jun 2024 22:59:36 GMT" time="0.449" errors="0">
+  <testcase name="@BeforeTest BeforeTest" time="0.0" classname="com.mycompany.app.NewTest">
+    <failure type="org.openqa.selenium.WebDriverException" message="unknown error: cannot find Chrome binary
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:17:03&amp;apos;
+System info: host: &amp;apos;JmContrStoltze&amp;apos;, ip: &amp;apos;127.0.1.1&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;5.15.146.1-microsoft-standard-WSL2&amp;apos;, java.version: &amp;apos;1.8.0_402&amp;apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x563bf698c4e3 &amp;lt;unknown&amp;gt;
+#1 0x563bf66bbc76 &amp;lt;unknown&amp;gt;
+#2 0x563bf66e2757 &amp;lt;unknown&amp;gt;
+#3 0x563bf66e1029 &amp;lt;unknown&amp;gt;
+#4 0x563bf671fccc &amp;lt;unknown&amp;gt;
+#5 0x563bf671f47f &amp;lt;unknown&amp;gt;
+#6 0x563bf6716de3 &amp;lt;unknown&amp;gt;
+#7 0x563bf66ec2dd &amp;lt;unknown&amp;gt;
+#8 0x563bf66ed34e &amp;lt;unknown&amp;gt;
+#9 0x563bf694c3e4 &amp;lt;unknown&amp;gt;
+#10 0x563bf69503d7 &amp;lt;unknown&amp;gt;
+#11 0x563bf695ab20 &amp;lt;unknown&amp;gt;
+#12 0x563bf6951023 &amp;lt;unknown&amp;gt;
+#13 0x563bf691f1aa &amp;lt;unknown&amp;gt;
+#14 0x563bf69756b8 &amp;lt;unknown&amp;gt;
+#15 0x563bf6975847 &amp;lt;unknown&amp;gt;
+#16 0x563bf6985243 &amp;lt;unknown&amp;gt;
+#17 0x7fc7ac773ac3 &amp;lt;unknown&amp;gt;
+">
+      <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JmContrStoltze', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.146.1-microsoft-standard-WSL2', java.version: '1.8.0_402'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x563bf698c4e3 <unknown>
+#1 0x563bf66bbc76 <unknown>
+#2 0x563bf66e2757 <unknown>
+#3 0x563bf66e1029 <unknown>
+#4 0x563bf671fccc <unknown>
+#5 0x563bf671f47f <unknown>
+#6 0x563bf6716de3 <unknown>
+#7 0x563bf66ec2dd <unknown>
+#8 0x563bf66ed34e <unknown>
+#9 0x563bf694c3e4 <unknown>
+#10 0x563bf69503d7 <unknown>
+#11 0x563bf695ab20 <unknown>
+#12 0x563bf6951023 <unknown>
+#13 0x563bf691f1aa <unknown>
+#14 0x563bf69756b8 <unknown>
+#15 0x563bf6975847 <unknown>
+#16 0x563bf6985243 <unknown>
+#17 0x7fc7ac773ac3 <unknown>
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.mycompany.app.NewTest.BeforeTest(NewTest.java:38)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+... Removed 23 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterTest afterTest" time="0.0" classname="com.mycompany.app.NewTest">
+    <skipped/>
+  </testcase>
+  <testcase name="f" time="0.0" classname="com.mycompany.app.NewTest">
+    <skipped/>
+  </testcase>
+</testsuite>

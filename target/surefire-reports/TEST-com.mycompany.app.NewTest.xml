@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.NewTest" time="0.568" tests="3" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/jmcstolz/proyectos_integracion_continua/ejemplo-selenium/target/test-classes:/home/jmcstolz/proyectos_integracion_continua/ejemplo-selenium/target/classes:/home/jmcstolz/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/jmcstolz/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/jmcstolz/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/jmcstolz/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/jmcstolz/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/jmcstolz/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/jmcstolz/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/jmcstolz/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/jmcstolz/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/jmcstolz/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/jmcstolz/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/jmcstolz/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/jmcstolz/.m2/repository/org/testng/testng/6.1.1/testng-6.1.1.jar:/home/jmcstolz/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/home/jmcstolz/.m2/repository/com/beust/jcommander/1.12/jcommander-1.12.jar:/home/jmcstolz/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/jmcstolz/proyectos_integracion_continua/ejemplo-selenium/target/surefire/surefirebooter3416475795488288854.jar /home/jmcstolz/proyectos_integracion_continua/ejemplo-selenium/target/surefire 2024-06-10T18-59-35_838-jvmRun1 surefire53889552701362372tmp surefire_08711516634157482313tmp"/>
+    <property name="surefire.test.class.path" value="/home/jmcstolz/proyectos_integracion_continua/ejemplo-selenium/target/test-classes:/home/jmcstolz/proyectos_integracion_continua/ejemplo-selenium/target/classes:/home/jmcstolz/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/jmcstolz/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/jmcstolz/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/jmcstolz/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/jmcstolz/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/jmcstolz/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/jmcstolz/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/jmcstolz/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/jmcstolz/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/jmcstolz/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/jmcstolz/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/jmcstolz/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/jmcstolz/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/jmcstolz/.m2/repository/org/testng/testng/6.1.1/testng-6.1.1.jar:/home/jmcstolz/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/home/jmcstolz/.m2/repository/com/beust/jcommander/1.12/jcommander-1.12.jar:/home/jmcstolz/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/jmcstolz"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/jmcstolz/proyectos_integracion_continua/ejemplo-selenium"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/jmcstolz/proyectos_integracion_continua/ejemplo-selenium/target/surefire/surefirebooter3416475795488288854.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_402-8u402-ga-2ubuntu1~22.04-b06"/>
+    <property name="user.name" value="jmcstolz"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.146.1-microsoft-standard-WSL2"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/jmcstolz/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_402"/>
+    <property name="user.dir" value="/home/jmcstolz/proyectos_integracion_continua/ejemplo-selenium"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="25.402-b06"/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="BeforeTest" classname="com.mycompany.app.NewTest" time="0.543">
+    <failure message="unknown error: cannot find Chrome binary&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;JmContrStoltze&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.146.1-microsoft-standard-WSL2&apos;, java.version: &apos;1.8.0_402&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x563bf698c4e3 &lt;unknown&gt;&#10;#1 0x563bf66bbc76 &lt;unknown&gt;&#10;#2 0x563bf66e2757 &lt;unknown&gt;&#10;#3 0x563bf66e1029 &lt;unknown&gt;&#10;#4 0x563bf671fccc &lt;unknown&gt;&#10;#5 0x563bf671f47f &lt;unknown&gt;&#10;#6 0x563bf6716de3 &lt;unknown&gt;&#10;#7 0x563bf66ec2dd &lt;unknown&gt;&#10;#8 0x563bf66ed34e &lt;unknown&gt;&#10;#9 0x563bf694c3e4 &lt;unknown&gt;&#10;#10 0x563bf69503d7 &lt;unknown&gt;&#10;#11 0x563bf695ab20 &lt;unknown&gt;&#10;#12 0x563bf6951023 &lt;unknown&gt;&#10;#13 0x563bf691f1aa &lt;unknown&gt;&#10;#14 0x563bf69756b8 &lt;unknown&gt;&#10;#15 0x563bf6975847 &lt;unknown&gt;&#10;#16 0x563bf6985243 &lt;unknown&gt;&#10;#17 0x7fc7ac773ac3 &lt;unknown&gt;&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JmContrStoltze', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.146.1-microsoft-standard-WSL2', java.version: '1.8.0_402'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x563bf698c4e3 <unknown>
+#1 0x563bf66bbc76 <unknown>
+#2 0x563bf66e2757 <unknown>
+#3 0x563bf66e1029 <unknown>
+#4 0x563bf671fccc <unknown>
+#5 0x563bf671f47f <unknown>
+#6 0x563bf6716de3 <unknown>
+#7 0x563bf66ec2dd <unknown>
+#8 0x563bf66ed34e <unknown>
+#9 0x563bf694c3e4 <unknown>
+#10 0x563bf69503d7 <unknown>
+#11 0x563bf695ab20 <unknown>
+#12 0x563bf6951023 <unknown>
+#13 0x563bf691f1aa <unknown>
+#14 0x563bf69756b8 <unknown>
+#15 0x563bf6975847 <unknown>
+#16 0x563bf6985243 <unknown>
+#17 0x7fc7ac773ac3 <unknown>
+
+	at com.mycompany.app.NewTest.BeforeTest(NewTest.java:38)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 14246
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="f" classname="com.mycompany.app.NewTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.mycompany.app.NewTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

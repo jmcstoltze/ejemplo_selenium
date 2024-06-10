@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.app.NewTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.568 s <<< FAILURE! - in com.mycompany.app.NewTest
+BeforeTest(com.mycompany.app.NewTest)  Time elapsed: 0.543 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JmContrStoltze', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.146.1-microsoft-standard-WSL2', java.version: '1.8.0_402'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x563bf698c4e3 <unknown>
+#1 0x563bf66bbc76 <unknown>
+#2 0x563bf66e2757 <unknown>
+#3 0x563bf66e1029 <unknown>
+#4 0x563bf671fccc <unknown>
+#5 0x563bf671f47f <unknown>
+#6 0x563bf6716de3 <unknown>
+#7 0x563bf66ec2dd <unknown>
+#8 0x563bf66ed34e <unknown>
+#9 0x563bf694c3e4 <unknown>
+#10 0x563bf69503d7 <unknown>
+#11 0x563bf695ab20 <unknown>
+#12 0x563bf6951023 <unknown>
+#13 0x563bf691f1aa <unknown>
+#14 0x563bf69756b8 <unknown>
+#15 0x563bf6975847 <unknown>
+#16 0x563bf6985243 <unknown>
+#17 0x7fc7ac773ac3 <unknown>
+
+	at com.mycompany.app.NewTest.BeforeTest(NewTest.java:38)
+
